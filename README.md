@@ -1,11 +1,11 @@
 # Desafio clase 42 - Test 🧪
 
 ```
-git clone
+git clone https://github.com/martinfyic/desafioclase42.git
 ```
 
 ```
-cd DesafioClase42
+cd desafioclase42
 ```
 
 ```
