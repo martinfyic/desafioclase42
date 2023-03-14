@@ -48,7 +48,6 @@ app
 	.set('views', 'public')
 	.use('/', v1LandRouter)
 	.use('/users', v1UserRouter)
-	// .use('/api/v1/productos', isAuth, v1ProdRouter)
 	.use('/api/v1/productos', v1ProdRouter)
 	.use('/api/v1/carrito', isAuth, v1CartRouter)
 	.use('/api/v1/ordenes', isAuth, v1OrderRouter)
